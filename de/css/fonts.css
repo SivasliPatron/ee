@@ -1,0 +1,39 @@
+/* 
+ * DSGVO-konforme Font-Definitionen
+ * Verwendet System-Fonts als sichere Alternative zu Google Fonts
+ * Keine externen Anfragen, keine Tracking-Probleme
+ */
+
+/* System Font Stack - Moderne, professionelle Schriften */
+:root {
+    /* Inter-�hnliche System-Fonts */
+    --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Arial, sans-serif;
+    
+    /* Poppins-�hnliche System-Fonts f�r Ueberschriften */
+    --font-heading: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Basis Font-Einstellungen */
+body {
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+/* Ueberschriften mit Heading-Font */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: 600;
+}
+
+/* Fuer Bereiche die explizit Inter/Poppins verwenden */
+.font-inter,
+[class*="font-sans"] {
+    font-family: var(--font-sans) !important;
+}
+
+.font-poppins,
+[class*="font-heading"] {
+    font-family: var(--font-heading) !important;
+}

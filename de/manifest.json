@@ -1,0 +1,29 @@
+﻿{
+    "name": "Global Tech Lubricants GmbH",
+    "short_name": "Elat GmbH",
+    "description": "Ihr deutscher Hersteller für hochwertige Motoröle, Getriebeöle, Hydrauliköle und Schmierstoffe. Qualität Made in Germany.",
+    "start_url": "/de/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#1e3a5f",
+    "orientation": "portrait-primary",
+    "lang": "de",
+    "icons": [
+        {
+            "src": "../bilder/gtl-logo.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "../bilder/gtl-logo.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "categories": ["business", "shopping"],
+    "screenshots": [],
+    "related_applications": [],
+    "prefer_related_applications": false
+}
